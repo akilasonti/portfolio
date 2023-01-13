@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6fe217b9.css",
+    "main.js": "/portfolio/static/js/main.d1274846.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/photographyimage.png": "/portfolio/static/media/photographyimage.abbbc40b180cb0a2bdca.png",
+    "static/media/hotelimage.png": "/portfolio/static/media/hotelimage.55d731880fe1c53e60dd.png",
+    "static/media/background_image.jpg": "/portfolio/static/media/background_image.2ffd2bfa35006f3a25b6.jpg",
+    "static/media/akila-jpeg.jpeg": "/portfolio/static/media/akila-jpeg.caf276fe6fa5817a1cf2.jpeg",
+    "static/media/todolistimage1.png": "/portfolio/static/media/todolistimage1.c3ff01981aeeb0bf2d93.png",
+    "static/media/icon.jpg": "/portfolio/static/media/icon.bce941ee6411ac815719.jpg",
+    "static/media/phone-call.png": "/portfolio/static/media/phone-call.00387604a72df1241c24.png",
+    "index.html": "/portfolio/index.html",
+    "main.6fe217b9.css.map": "/portfolio/static/css/main.6fe217b9.css.map",
+    "main.d1274846.js.map": "/portfolio/static/js/main.d1274846.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fe217b9.css",
+    "static/js/main.d1274846.js"
+  ]
+}
