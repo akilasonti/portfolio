@@ -1,23 +1,17 @@
-import './App.css';
-import MyNavbar from './Components/Navbar';
-import Port from './Components/Port';
+import "./App.css";
+import MyNavbar from "./Components/Navbar";
+import ContentSection from "./Components/ContentSection";
+import AboutMe from "./Components/AboutMe";
+import MyEducation from "./Components/MyEducation";
 function App() {
   return (
     <div>
-     <MyNavbar/>
-    <div className='portfolio'>
-      {/* <Port/> */}
-      <div className='fullPagebg'>
-        {/* <div className='halfbg'> */}
-          <div className='img'>
-          {/* </div> */}
-         {/* <span className='box'>Hi</span> */}
-        </div>
-        </div>
-
-
-    </div>
-
+      <MyNavbar />
+      <div className="portfolio">
+       <ContentSection/>
+       <AboutMe/>
+       <MyEducation/>
+      </div>
     </div>
   );
 }

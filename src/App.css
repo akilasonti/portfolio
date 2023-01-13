@@ -7,35 +7,6 @@
   text-align: center;
 }
 
-  .fullPagebg {
-    min-height: 100vh;
-   display: flex;
-    font-weight: 400; 
-    font-family: sans-serif;
-   /* background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); */
-   justify-content: center;
-   align-items: top;
-   margin-top: 4rem; 
-   background-color: rgba(105,102,93,.3);
-    height: 100%;
-    width: 100%;
-    position: relative;
-    margin-top: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-
- }
  
- .img{
-  background-image: url('./akila-jpeg.jpeg');
-  background-repeat: no-repeat;
-  border: linear-gradient(to right,  #c471ed);
-  height: 200px;
-  width: 200px;
-  background-size: cover;
-  text-align: center;
-  border-radius: 150px;
- }
  
  

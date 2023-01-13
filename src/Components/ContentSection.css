@@ -1,0 +1,48 @@
+.fullPageCss {
+    display: flex;
+    /* background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); */ 
+    background-color: rgba(105,102,93,.3);
+     height: 87%;
+     width: 100%;
+     position: relative;
+     margin-top: 5rem;
+     display: flex;
+     flex-direction: column;
+  }
+  .myprofilecss{
+   background-repeat: no-repeat;
+   border: 2px solid black;
+   height: 180px;
+   width: 180px;
+   background-size: cover;
+   text-align: center;
+   border-radius: 150px;
+   margin-left: 35rem;
+   cursor: pointer;
+   transition: 1s ease;
+  }
+
+  .myprofilecss:hover{
+   -webkit-transform: rotateZ(-10deg);
+   -ms-transform: rotateZ(-10deg);
+   transform: rotateZ(-10deg);
+   transition: 1s ease;
+  }
+  .font{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-style: italic;
+   color: white;
+   font-size: 5rem;
+   
+  }
+ .detailscss{
+    width: 50%;
+    margin-left: 30%;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }

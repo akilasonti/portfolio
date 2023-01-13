@@ -1,0 +1,61 @@
+.contentheight{
+    height: 100%;
+    width: 100%;
+    background-color:darkslategray;
+    color: azure;
+    font-style: oblique;
+ }
+   .contentheight:hover{
+      background-color: #434242;
+
+   }
+
+ .fontwidth{
+    width: 60%;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size:large;
+    text-align: left;
+ }
+ .fontwidth:hover{
+   font-size: 1.6rem;
+   color: burlywood;
+   font-family: 'Times New Roman', Times, serif;
+ }
+ .imgcss{
+    height: 200px;
+    width:200px;
+    display:flex;
+    justify-items: left;
+    padding-inline-start: 20px;
+    cursor: pointer;
+    transition: 1s ease;
+  }
+  .imgcss:hover {
+   border-radius:50%;
+   transition: 1s ease;
+   }
+  .hrcss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10%;
+    cursor: pointer;
+  }
+ 
+  .address{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   font-size:1.3rem;
+  }
+
+  .phoneno{
+   height: 1em;
+   width: 1em;
+   color: #00f;
+  }
+  .email{
+   height: 1em;
+   width: 1em;
+  }

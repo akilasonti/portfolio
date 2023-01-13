@@ -9,11 +9,11 @@
 
  .custom-nav{
     height: 4rem;
-    background-color: blue !important;
-    border: 2px solid darkblue; 
+    background-color: lightslategray !important;
+    /* border: 2px solid darkblue;  */
  }
  .custom-nav:hover{
-   background-color: darkblue !important;
+   background-color: burlywood !important;
  }
 
  .abc{
