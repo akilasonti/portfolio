@@ -25,7 +25,7 @@ function MyEducation() {
             Vikram University Ujjain .June 2016 - May 2018
           </p>
 
-          <h2 className="postgra">Bachlor of Arts</h2>
+          <h2 className="postgra">Bachelor of Arts</h2>
           <p className="collegeCss">
             Vikram University Ujjain. june 2013 - May 2016
           </p>
