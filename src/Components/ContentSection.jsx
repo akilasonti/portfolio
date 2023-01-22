@@ -2,7 +2,7 @@ import "./ContentSection.css";
 import profile_image from "../images/akila-jpeg.jpeg";
 const ContentSection = () => {
   return (
-    <div className="fullPageCss">
+    <div className="fullPageCss" id="homeSection">
       <img className="myprofilecss" src={profile_image} alt="profile image" />
       <span className="font">Hi,I am Akila_</span>
       <div>

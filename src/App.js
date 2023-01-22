@@ -8,7 +8,7 @@ function App() {
     <div>
       <MyNavbar />
       <div className="portfolio">
-       <ContentSection/>
+       <ContentSection />
        <AboutMe/>
        <MyEducation/>
       </div>

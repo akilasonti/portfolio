@@ -10,27 +10,33 @@ function MyNavbar(){
  >
     <div >
     <Nav>
-    <NavbarBrand href="/" className="abc">
+    <NavbarBrand href="#" className="abc">
       AKILA'S PORTFOLIO
     </NavbarBrand>
 
-    <NavbarBrand href="/" className="mrg">
+    <NavbarBrand href="#homeSection" className="mrg">
     HOME
   </NavbarBrand>
 
-  <NavbarBrand href="/" className="mrg">
+  <NavbarBrand href="#aboutSection" className="mrg">
     ABOUT
   </NavbarBrand>
 
-  <NavbarBrand href="/" className="mrg">
+  <NavbarBrand href="#educationSection" className="mrg">
+    EDUCATION
+  </NavbarBrand>
+  <NavbarBrand href="#skilSection" className="mrg">
+    SKILS
+  </NavbarBrand>
+  <NavbarBrand href="#resumeSection" className="mrg">
     RESUME
   </NavbarBrand>
 
-  <NavbarBrand href="/" className="mrg">
+  <NavbarBrand href="#project" className="mrg">
     PROJECTS
   </NavbarBrand>
 
-  <NavbarBrand href="/" className="mrg">
+  <NavbarBrand href="#contactSection" className="mrg">
     CONTACTS
   </NavbarBrand>
   </Nav>

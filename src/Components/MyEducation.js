@@ -6,12 +6,13 @@ import photographyimage from "../images/photographyimage.png";
 import todolistimage1 from "../images/todolistimage1.png";
 import {Form, FormGroup,Label, Input, FormText } from 'reactstrap';
 import phone_call from "../images/phone-call.png"; 
+import akila_resume from "../images/Akila_Resume1.pdf";
 function MyEducation() {
   const [bar,setBar]=useState('language');
   return (
     
       <div>
-      <div className="main">
+      <div className="main" id="educationSection">
         <h2 className="education">
           <u>EDUCATION</u>
         </h2>
@@ -52,7 +53,7 @@ function MyEducation() {
         </div>
         <hr></hr>
        
-        <div className="main">
+        <div className="main" id="skilSection">
         <h2 className="education">
           <u>SKILLS</u>
         </h2>
@@ -110,7 +111,7 @@ function MyEducation() {
         </div>
         </div>
         
-        <div className="project">
+        <div id="project" className="project">
         <Button className="projectbtn" color="success" size="lg" active>CHECK OUT SOME OF MY PROJECTS</Button>{' '}
 
         <div className="imgparent">
@@ -164,9 +165,11 @@ function MyEducation() {
         </ul>
         </div>
         </div>
+        <embed src={akila_resume} width="100%" height="700px" id="resumeSection"/>
 
         <div className="leavemsg"><u>Want to get in touch? Leave a message</u></div>
         <div className="formparent">
+       
         <Form >
         <FormGroup className="formgroup">
           <Label className="label" for="exampleEmail">Email</Label>
@@ -193,7 +196,7 @@ function MyEducation() {
         </FormGroup>
         </Form>
         <div>
-        <div className="addressparent">
+        <div className="addressparent" id="contactSection">
         <h2 className="address2">Contact Details 
         <br></br>
         Akila Sonti

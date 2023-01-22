@@ -4,7 +4,7 @@ import phone_call from "../images/phone-call.png";
 import icon from "../images/icon.jpg";
 export default function AboutMe() {
   return (
-    <div className="contentheight">
+    <div className="contentheight" id="aboutSection">
       <h2 className="about">About Me</h2>
       <div className="hrcss">
         
