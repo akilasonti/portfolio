@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import "./MyEducation.css";
 import { Button,Progress } from 'reactstrap';
 import hotelimage from "../images/hotelimage.png";
@@ -7,6 +7,7 @@ import todolistimage1 from "../images/todolistimage1.png";
 import {Form, FormGroup,Label, Input, FormText } from 'reactstrap';
 import phone_call from "../images/phone-call.png"; 
 function MyEducation() {
+  const [bar,setBar]=useState('language');
   return (
     
       <div>
@@ -60,21 +61,52 @@ function MyEducation() {
         <h4 className="prefrence">"Perfection is achieved not when there is nothing more to add,
         but rather when there is nothing more to take away.” – I believe “Simplicity is the soul of efficiency.” –</h4>
 
-        <div className="btn">
-        <Button color="success" size="lg">Language</Button>{' '}
-        <Button color="success" size="lg">Framworks</Button>
-        <Button color="success" size="lg">Programming-Concepts</Button>
-        <Button color="success" size="lg">Other-Tools</Button>
+        <div className="">
+        <Button color="success" onClick={()=>setBar("language")} size="lg">Language</Button>{' '}
+        <Button color="success" onClick={()=>setBar("framework")} size="lg">Framworks</Button>
+        <Button color="success" onClick={()=>setBar("concept")} size="lg">Programming-Concepts</Button>
+        <Button color="success" onClick={()=>setBar("tool")} size="lg">Other-Tools</Button>
         </div>
-
+        {(bar=='language')?<>
         <div className="proparent">
           <h5 className="language">JAVASCRIPT</h5>
         <Progress className="progress1" animated color={2*5} value="60" />
         <h5 className="language">JAVA</h5>
-        <Progress className="progress1" animated color="success" value="55" />
-        <h5 className="language">C</h5>
+        <Progress className="progress1" animated color="warning" value="55" />
+        <h5 className="language">HTML & CSS</h5>
         <Progress className="progress1" animated color="danger" value="50" />
         </div>
+        </>:<></>}
+       { (bar=='framework')?<>
+
+        <div className="proparent">
+          <h5 className="language">ReactJS</h5>
+        <Progress className="progress1" animated color={2*5} value="60" />
+        <h5 className="language">NodeJS</h5>
+        <Progress className="progress1" animated color="warning" value="55" />
+        </div>
+        </>:<></>}
+
+        {(bar=='concept')?<>
+        
+        <div className="proparent">
+          <h5 className="language">Data Structure & Algorithm</h5>
+        <Progress className="progress1" animated color={2*5} value="60" />
+        <h5 className="language">Computer Science Fundamentals</h5>
+        <Progress className="progress1" animated color="danger" value="55" />
+        </div>
+        </>:<></>}
+        {(bar=='tool')?<>
+
+        <div className="proparent">
+          <h5 className="language">TalwindCSS</h5>
+        <Progress className="progress1" animated color={2*5} value="60" />
+        <h5 className="language">Bootstrap</h5>
+        <Progress className="progress1" animated color="warning" value="55" />
+        <h5 className="language">jQuery</h5>
+        <Progress className="progress1" animated color="danger" value="70" />
+        </div>
+        </>:<></>}
         </div>
         </div>
         

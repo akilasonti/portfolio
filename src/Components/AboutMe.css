@@ -1,9 +1,10 @@
 .contentheight{
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     background-color:darkslategray;
     color: azure;
     font-style: oblique;
+    margin-bottom: 5px;
  }
    .contentheight:hover{
       background-color: #434242;
@@ -18,9 +19,9 @@
     text-align: left;
  }
  .fontwidth:hover{
-   font-size: 1.6rem;
+   /* font-size: 1.6rem; */
    color: burlywood;
-   font-family: 'Times New Roman', Times, serif;
+   /* font-family: 'Times New Roman', Times, serif; */
  }
  .imgcss{
     height: 200px;

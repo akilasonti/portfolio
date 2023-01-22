@@ -78,7 +78,8 @@ hr{
     margin-left: 225px;
     height: 30%;
     cursor: pointer;
-
+    width: 75% !important;
+    margin-bottom: 30px;
 }
 .language{
     display: flex;
