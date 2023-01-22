@@ -1,5 +1,4 @@
 .contentheight{
-    /* height: 100%; */
     width: 100%;
     background-color:darkslategray;
     color: azure;
@@ -15,13 +14,12 @@
     width: 60%;
     margin-left: 80px;
     font-weight: bold;
-    font-size:large;
+    font-size:1.5rem;
     text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
  }
  .fontwidth:hover{
-   /* font-size: 1.6rem; */
    color: burlywood;
-   /* font-family: 'Times New Roman', Times, serif; */
  }
  .imgcss{
     height: 200px;
@@ -55,8 +53,14 @@
    height: 1em;
    width: 1em;
    color: #00f;
+   font-family: 'Courier New', Courier, monospace;
   }
   .email{
    height: 1em;
    width: 1em;
+   font-family: 'Courier New', Courier, monospace;
+  }
+  .about{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
   }

@@ -7,6 +7,8 @@ import todolistimage1 from "../images/todolistimage1.png";
 import {Form, FormGroup,Label, Input, FormText } from 'reactstrap';
 import phone_call from "../images/phone-call.png"; 
 import akila_resume from "../images/Akila_Resume1.pdf";
+import E_commerce_web from "../images/E-commerce_web.png";
+import Shortnerlink from "../images/shortnerlink.png";
 function MyEducation() {
   const [bar,setBar]=useState('language');
   return (
@@ -49,6 +51,7 @@ function MyEducation() {
         <div className="master">
         <h2 className="postgra">Full Stack Developer Intern</h2>
           <h2 className="postgra1">Full Stack Web Development Bootcamp Newton School:- Full Stack Web Development along with Problem Solving. Technical Stack learned: Node JS, React JS,HTML, CSS, JavaScript, and Bootstrap,Tailwind-CSS. Participated in various Coding contests organized by the platform. Worked on various projects like To-do-list, Calculator,Photography,Hotel-booking.</h2>
+          <br></br>
         </div>
         </div>
         <hr></hr>
@@ -59,10 +62,7 @@ function MyEducation() {
         </h2>
        
         <div className="parentbtn">
-        <h4 className="prefrence">"Perfection is achieved not when there is nothing more to add,
-        but rather when there is nothing more to take away.” – I believe “Simplicity is the soul of efficiency.” –</h4>
-
-        <div className="">
+        <div className="prt">
         <Button color="success" onClick={()=>setBar("language")} size="lg">Language</Button>{' '}
         <Button color="success" onClick={()=>setBar("framework")} size="lg">Framworks</Button>
         <Button color="success" onClick={()=>setBar("concept")} size="lg">Programming-Concepts</Button>
@@ -108,6 +108,7 @@ function MyEducation() {
         <Progress className="progress1" animated color="danger" value="70" />
         </div>
         </>:<></>}
+        <br></br>
         </div>
         </div>
         
@@ -115,7 +116,37 @@ function MyEducation() {
         <Button className="projectbtn" color="success" size="lg" active>CHECK OUT SOME OF MY PROJECTS</Button>{' '}
 
         <div className="imgparent">
-        <img className="img" src={hotelimage} alt="portimage"/>
+        <img className="img" src={E_commerce_web} alt="e-commerceimage"/>
+        <div className="contentparent">
+        <h2 className="imgcontent">E-Commerce Website</h2>
+
+        <ul className="li-parent">
+        <li>We look at the whole picture, from how to arrange your products, what payment options to use and how to market to you customers. By providing a solution that includes everything, we can maximise the number of sales you will make.</li>
+          <li>We only offer e-commerce platforms that will let you grow as sales increase and add extra features as you need them. Our aim is to help you grow your business as much as possible, so choosing the right platform is really important.</li>
+          <li>Yes! Making sure you know how to run your website is really important. We’ll show you how to manage your orders and offer tips on maximising sales. We also provide great support options with our award-winning customer service.
+          Tools and Technologies Used:</li>
+          <li> ReactJs, NodeJs, Reactstrap, React-Router, Html and CSS.</li>
+        </ul>
+        </div>
+        </div>
+
+        <div className="imgparent">
+        <img className="img" src={Shortnerlink} alt="shortnerlinkimage"/>
+        <div className="contentparent">
+        <h2 className="imgcontent">Shortner Link App</h2>
+
+        <ul className="li-parent">
+        <li>Trying to convince people to click on a long, jumbled link is almost as bad as a door-to-door salesman trying to sell people financial services.</li>
+          <li>Shortening your links makes them easier to share and track their performance. They’re an excellent choice for business owners, marketers, individuals, and anyone who’d like to post links that are easy to read and remember.</li>
+          <li>When you post long links on social media, it can look like spam or deter users from clicking on something they don't recognize. In particular, adding tracking parameters (such as UTM codes) to your links can result in URLs that look long and confusing. Link shorteners can turn spammy-looking links into clear and user-friendly links.
+          Tools and Technologies Used:</li>
+          <li> ReactJs, NodeJs, Reactstrap, Html and CSS.</li>
+        </ul>
+        </div>
+        </div>
+
+        <div className="imgparent">
+        <img className="img" src={hotelimage} alt="hotelimage"/>
         <div className="contentparent">
         <h2 className="imgcontent">Hotel-Booking Website</h2>
         <ul className="li-parent">
